@@ -4,6 +4,8 @@ import router from './router'
 import Axios from 'axios'
 import _ from 'lodash'
 import filters from './filters/'
+import mSlider from './components/aside/index'
+Vue.use(mSlider)
 
 Vue.config.productionTip = false
 
